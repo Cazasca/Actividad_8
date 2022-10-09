@@ -1,0 +1,134 @@
+html{
+  font-family: sans-serif;
+  background-image: url(../images/background-pattern.png);
+}
+
+article{
+  margin: 1rem 3rem 1rem 3rem;
+}
+
+footer{
+  background-color: #273649;
+  margin: 1rem 3rem 1rem 3rem;
+}
+
+footer p{
+  padding-left: .5rem;
+}
+
+.menu{
+  padding-top: .5rem;
+}
+
+#copyright{
+  color: white;
+  padding-bottom: .5rem;
+}
+
+#titulo{
+  background-image: url(../images/header-background.png);
+}
+
+.CRM{
+  margin-left: 3rem;
+}
+
+nav.principal{
+  background-color: #273649;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+}
+
+ul.mPrincipal{
+  text-align: right;
+  margin-right: 3rem;
+}
+
+ul.mPrincipal > li{
+  padding-right: .5rem;
+  display: inline;
+}
+
+nav.segundo{
+  background-color: #D9E0E9;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+}
+
+ul.mSegundo{
+  margin-left: 3rem;
+}
+
+ul.mSegundo > li{
+  padding-right: .5rem;
+  display: inline;
+}
+
+#autor{
+  background-color: white;
+  text-align: center;
+}
+
+.foto{
+  border: 2px solid #D7D4D7;
+  padding: .5rem;
+  margin-top: 1rem;
+}
+
+h3{
+  background-image: url(../images/header-background.png);
+  color: white;
+  padding: .5rem;
+}
+
+a[href^="mailto"] {
+background: url(../images/email.png) no-repeat 0 3px;
+padding-left: 1em;
+}
+
+a[href^="tel"] {
+background: url(../images/call.png) no-repeat 0 3px;
+padding-left: 1em;
+}
+
+section{
+  background-color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+}
+
+section p{
+  padding: .5rem;
+  font-family: serif;
+}
+
+section p em{
+  color: #A3A4A2;
+  font-style: italic;
+}
+
+section div{
+  background-color: #273649;
+  font-family: serif;
+  padding-bottom: .25rem;
+  padding-top: .25rem;
+  padding-left: .25rem;
+}
+
+section div ul li{
+  display: inline;
+  background-color: white;
+  border-radius: 2px;
+  padding-right: .5rem;
+}
+
+a[href^="#"].Edit {
+  background: url(../images/edit.png) no-repeat 0 3px;
+  padding-left: 1em;
+}
+
+a[href^="#"].Flag {
+  background: url(../images/flag.png) no-repeat 0 3px;
+  padding-left: 1em;
+}
